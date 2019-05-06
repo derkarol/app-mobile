@@ -12,7 +12,40 @@ const styles = StyleSheet.create({
     borderBottomRightRadius: 50,
     borderBottomLeftRadius: 0,
     backgroundColor: '#F7AB00',
-  }
+  },
+  // petalIcon: {
+  //   width: 20,
+  //   height: 40,
+  //   borderTopLeftRadius: 50,
+  //   borderTopRightRadius: 0,
+  //   borderBottomRightRadius: 50,
+  //   borderBottomLeftRadius: 0,
+  //   backgroundColor: 'white',
+  // },
+  // // planningIcon
+  // icon0: {
+  //   backgroundColor: '#1A675C',
+  // },
+  // // designIcon
+  // icon1: {
+  //   backgroundColor: '#286BB3',
+  // },
+  // // frontEndIcon
+  // icon2: {
+  //   backgroundColor: '#910F19',
+  // },
+  // // backendIcon
+  // icon3: {
+  //   backgroundColor: '#E50019',
+  // },
+  // // devOpsIcon
+  // icon4: {
+  //   backgroundColor: '#F8810A',
+  // },
+  // // functionalTestingIcon
+  // icon5: {
+  //   backgroundColor: '#F7AB00',
+  // },
 });
 
 export default function petalIcon(props) {
@@ -20,7 +53,7 @@ export default function petalIcon(props) {
 
   return (
     <View
-      style={[styles.petalIcon, { alignItems: 'center', justifyContent: 'center'}]}>
+      style={[styles.petalIcon, { alignItems: 'center', justifyContent: 'center' }]}>
         <Text>{ id }</Text>
     </View>
   );
