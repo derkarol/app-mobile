@@ -5,11 +5,11 @@ import { Footer } from 'native-base';
 import NavbarButton from './navbarButton';
 import Pages from '../../../constants/pages';
 
-const iconImage = require('../../../../assets/icon.png');
+const iconImage = require('../../../../assets/icon-loader-active.svg');
 
 const styles = StyleSheet.create({
   footer: {
-    backgroundColor: '#fff',
+    backgroundColor: '#414042',
     width: '100%',
     alignItems: 'center',
     justifyContent: 'center',
